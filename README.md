@@ -79,20 +79,20 @@ Permite crear nuevas clases reutilizando otras existentes. Modela la relación *
 **Diagrama UML — Jerarquía de Vehículos**
 
 ```
-              ┌──────────────────────────────────┐
-              │           Vehiculo               │
-              ├──────────────────────────────────┤
-              │ # nombre: String                 │
+              ┌───────────────────────────────────┐
+              │           Vehiculo                │
+              ├───────────────────────────────────┤
+              │ # nombre: String                  │
               │ # velocidadMaxima: double         │
-              │ # capacidadCarga: int            │
-              │ # enMovimiento: boolean          │
-              ├──────────────────────────────────┤
+              │ # capacidadCarga: int             │
+              │ # enMovimiento: boolean           │
+              ├───────────────────────────────────┤
               │ + Vehiculo(String,double,int,bool)│
-              │ + arrancar(): void               │
-              │ + detener(): void                │
-              │ + desplazarse(String): void      │
-              │ + mostrarDatos(): void           │
-              └───────────────┬──────────────────┘
+              │ + arrancar(): void                │
+              │ + detener(): void                 │
+              │ + desplazarse(String): void       │
+              │ + mostrarDatos(): void            │
+              └───────────────┬───────────────────┘
                               │
            ┌──────────────────┼──────────────────┐
            ▽                  ▽                  ▽
@@ -234,16 +234,16 @@ pensado solo para ser heredado.
 **Diagrama UML — Figuras**
 
 ```
-              ┌──────────────────────────┐
-              │      «abstract»          │
-              │         Figura           │
-              ├──────────────────────────┤
-              │                          │
-              ├──────────────────────────┤
+              ┌───────────────────────────┐
+              │      «abstract»           │
+              │         Figura            │
+              ├───────────────────────────┤
+              │                           │
+              ├───────────────────────────┤
               │ + calcularArea(): double  │  ← abstracto
               │ + calcularPerim(): double │  ← abstracto
-              │ + mostrarDatos(): void   │  ← concreto
-              └────────────┬─────────────┘
+              │ + mostrarDatos(): void    │  ← concreto
+              └────────────┬──────────────┘
                            │
            ┌───────────────┼──────────────┐
            ▽               ▽              ▽
