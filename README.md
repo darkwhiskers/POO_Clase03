@@ -1,7 +1,7 @@
-# Clase 03: POO — Pilares y Herencia
+# POO - Clase 03: Pilares... Herencia y Abstracción
 
 Este repositorio contiene los ejemplos y ejercicios prácticos de la tercera sesión de Java,
-enfocada en los **cuatro pilares de la POO** con desarrollo profundo del pilar de **Herencia**:
+enfocada en los **cuatro pilares de la POO** con desarrollo profundo del pilar de **Herencia** y **Abstracción**:
 clases abstractas, sobrescritura de métodos, `super`, `final` y UML.
 
 ---
@@ -404,4 +404,4 @@ sistemas de software orientados a objetos.
 
 | Realizado por **Miguel Silva C.** \
 | GitHub: [github.com/darkwhiskers] *( https://github.com/darkwhiskers )* \
-| Licencia: *CC BY-NC-ND 4.0*
+| Licencia: © darkwhiskers.org — *Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)*
